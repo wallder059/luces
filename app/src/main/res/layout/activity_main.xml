@@ -9,7 +9,7 @@
 
     <View
         android:id="@+id/a_red"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:background="@drawable/circulogris"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,7 +19,7 @@
 
     <View
         android:id="@+id/a_yellow"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:background="@drawable/circulogris"
         app:layout_constraintTop_toBottomOf="@id/a_red"
@@ -29,7 +29,7 @@
 
     <View
         android:id="@+id/a_green"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:background="@drawable/circulogris"
         app:layout_constraintTop_toBottomOf="@id/a_yellow"
@@ -47,7 +47,7 @@
 
     <View
         android:id="@+id/b_red"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:background="@drawable/circulogris"
         app:layout_constraintTop_toBottomOf="@id/sep"
@@ -57,7 +57,7 @@
 
     <View
         android:id="@+id/b_yellow"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:background="@drawable/circulogris"
         app:layout_constraintTop_toBottomOf="@id/b_red"
@@ -67,7 +67,7 @@
 
     <View
         android:id="@+id/b_green"
-        android:layout_width="120dp"
+        android:layout_width="110dp"
         android:layout_height="120dp"
         android:background="@drawable/circulogris"
         app:layout_constraintTop_toBottomOf="@id/b_yellow"
@@ -88,10 +88,10 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnStart"
-            android:layout_width="wrap_content"
+            android:layout_width="75dp"
             android:layout_height="wrap_content"
-            android:text="Iniciar"
-            android:background="@drawable/btn_devanecido"/>
+            android:background="@drawable/btn_devanecido"
+            android:text="Iniciar" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
